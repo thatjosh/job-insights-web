@@ -1,0 +1,6 @@
+# Single-package config (no real workspace). `allowBuilds` allowlists
+# post-install scripts; sharp and unrs-resolver are Next.js's native deps
+# that need their integrity checks to run.
+allowBuilds:
+  sharp: true
+  unrs-resolver: true
